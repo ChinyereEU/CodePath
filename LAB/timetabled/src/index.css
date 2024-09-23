@@ -6,6 +6,11 @@ body {
   min-height: 100vh;
 }
 
+.Event {
+  width: 100px;
+  background: aquamarine;
+}
+
 th {
   width: 120px;
   padding-top: 25px;

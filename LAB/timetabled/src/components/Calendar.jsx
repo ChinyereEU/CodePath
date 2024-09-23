@@ -1,4 +1,5 @@
 import React from "react";
+import Event from './Events';
 
 const Calendar = () => {
     
@@ -21,8 +22,8 @@ const Calendar = () => {
                 <tbody>
                     <tr>
                         <td className="time">8 am</td>
-                        <td></td>
-                        <td></td>
+                        <Event event='Breakfast' color='green'/>
+                        <Event event='Breakfast' color='green'/>
                         <td></td>
                         <td></td>
                         <td></td>
