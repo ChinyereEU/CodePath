@@ -18,9 +18,10 @@ body {
   color: black;
 }
 
+
 #root {
   position: relative;/* Ensure the pseudo-element is positioned relative to the root */
-  max-width: 100%;
+  max-width: 100vw;
   min-height: 100vh;
   margin: 0;
   /* margin-bottom: 100%; */
@@ -37,7 +38,7 @@ body {
 }
 
 .TopImage {
-  width: 100%;
+  width: 100vw;
   height: auto;
   object-fit: contain;
   margin-bottom: 20px;
