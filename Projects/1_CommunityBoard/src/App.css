@@ -1,6 +1,17 @@
+body {
+  display: flex;
+  place-items: center;
+  width: 100vw; /* Ensure body takes full width */
+  min-width: 320px;
+  min-height: 100vh;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
 .App {
-  max-width: 1280px;
-  margin: 0 auto;
+  max-width: 100%;
+  margin: 0;
   padding: 2rem;
   text-align: center;
   font-family: 'TImes New Roman', Times, serif;
@@ -9,9 +20,10 @@
 
 #root {
   position: relative;/* Ensure the pseudo-element is positioned relative to the root */
-  max-width: 1280px;
+  max-width: 100%;
   min-height: 100vh;
-  margin: 0 auto;
+  margin: 0;
+  /* margin-bottom: 100%; */
   padding: 2rem;
   text-align: center;
   /* font-family: Inter, Avenir, Helvetica, Arial, sans-serif; */
@@ -22,7 +34,6 @@
   background-repeat: no-repeat;
   background-position: center;
   background-color: white;
-  /* background-color: #738854; */
 }
 
 .TopImage {
@@ -54,10 +65,10 @@
   pointer-events: none; /* Allow clicks to pass through the overlay */
 }
 
-body {
+/* body {
   margin: 0;
   display: flex;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-}
+} */

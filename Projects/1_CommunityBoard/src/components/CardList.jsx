@@ -15,6 +15,10 @@ import RoosterSpin from '../assets/images/RoosterSpin.png';
 import RamenNagomi from '../assets/images/RamenNagomi.png';
 import HannahBusing from "../assets/images/hannah-busing-0BhSKStVtdM-unsplash.jpg";
 import cover from "../assets/images/michele-blackwell-rAyCBQTH7ws-unsplash.jpg";
+import Indochine from "../assets/images/Indochine.png";
+import FatCactus from "../assets/images/FatCactusCantina.jpg";
+import Sakana from "../assets/images/Sakana.png";
+import Nirvanis from "../assets/images/Nirvanis.png";
 
 // create an array of objects containing image URLs, titles, and descriptions
 const CardList = () => {
@@ -28,8 +32,12 @@ const CardList = () => {
         {title: "Catherine Lombardi", description: "Italian", imageUrl: CatherineLombardi, link: "http://www.catherinelombardi.com/menu"},
         {title: "Golden Bowl", description: "Chinese", imageUrl: GoldenBowl, link: "http://www.goldenbowlnj.com/menu"},
         {title: "Rooster Spin", description: "Korean", imageUrl: RoosterSpin, link: "http://places.singleplatform.com/roosterspin---new-brunswick/menu?ref=google"},
-        {title: "Ramen Nagomi", description: "Japanese", imageUrl: RamenNagomi, link: "https://www.ramennagomi.com/"}
-    ];
+        {title: "Ramen Nagomi", description: "Japanese", imageUrl: RamenNagomi, link: "https://www.ramennagomi.com/"},
+        {title: "Indochine", description: "Vietnamese", imageUrl: Indochine, link: "https://indochinefood.com/"},
+        {title: "Fat Cactus Cantina", description: "Mexican", imageUrl: FatCactus, link: "https://www.fatcactuscantina.com/menu"},
+        {title: "Sakana", description: "Sushi & Japanese", imageUrl: Sakana, link: "https://www.sakananewbrunswick.com/"},
+        {title: "Nirvanis", description: "Indian", imageUrl: Nirvanis, link: "https://order.online/store/nirvanis-indian-kitchen-new-brunswick-2413983/?hideModal=true&pickup=true&utm_source=sdk&visitorId=e99a4191397cac087b81a4"},
+    ]; 
 
     // map over array to render 10 card components
     return (
